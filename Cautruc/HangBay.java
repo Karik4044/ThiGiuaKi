@@ -79,6 +79,12 @@ public class HangBay {
             if(danhsachchuyenbay[i] != null && danhsachchuyenbay[i].getMachuyenbay().equals(maChuyenBay)) {
                 danhsachchuyenbay[i] = null;
                 System.out.println("Da xoa chuyen bay " + maChuyenBay);
+                System.out.println("Chuyen bay da duoc xoa");
+                break;
+            }
+            else {
+                System.out.println("Khong the tim thay chuyen bay, nen khong the xoa duoc.");
+                break;
             }
         }
     }
